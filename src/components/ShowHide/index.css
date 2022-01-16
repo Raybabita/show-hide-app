@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.btn {
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.show-hide-name {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 110px;
+  padding-right: 110px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fddddb;
+}
